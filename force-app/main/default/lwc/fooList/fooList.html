@@ -1,0 +1,11 @@
+<template>
+  <h1>Foo List</h1>
+  <ul>
+    <template
+      for:each={foos}
+      for:item="foo"
+    >
+      <li key={foo}>{foo}</li>
+    </template>
+  </ul>
+</template>
